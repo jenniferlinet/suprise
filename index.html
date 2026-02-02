@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanna be My Valentine??</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+
+  <h1 class="headerText" id="wedate">
+    Hey Mr.Mahesh(My cutie Hethlandi) 🏎️❤️ <br />
+    Will you be my Valentine?
+  </h1>
+
+  <!-- MAIN IMAGE -->
+  <img
+    class="image"
+    src="https://github.com/NikhilMarko03/resources/blob/main/happy1.gif?raw=true"
+    alt="main"
+    id="mainImg"
+  />
+
+  <!-- BUTTONS -->
+  <div class="flex" id="btns">
+    <button
+      class="button"
+      id="yes"
+      onmouseenter="happy()"
+      onmouseleave="normal()"
+      onclick="yes()"
+    >
+      YES 💖 (P1)
+    </button>
+
+    <button
+      class="button"
+      id="no"
+      onmouseenter="angry()"
+      onmouseleave="normal()"
+      onclick="no()"
+    >
+      NO 😤 (DNF)
+    </button>
+  </div>
+
+  <!-- FLOATING HEARTS (UNCHANGED) -->
+  <div class="absImages" id="absImg">
+    <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" />
+    <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" />
+    <img class="image1" src="https://github.com/NikhilMarko03/resources/blob/main/heart.gif?raw=true" />
+  </div>
+
+  <!-- NO MODAL -->
+  <div id="model" class="model">
+    <div class="model-content">
+      <p class="modelText" id="modelText">Are you SURE? 🤨</p>
+      <img
+        class="modelImg"
+        id="modelImg"
+        src=""
+        alt="meme"
+      />
+      <div class="flex">
+        <button class="button" onclick="yes()">Yes 🥰</button>
+        <button class="button" onclick="no()">No 😭</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main2.js"></script>
+</body>
+</html>
